@@ -1,0 +1,17 @@
+{
+  "name": "lamon-babae",
+  "version": "1.0.0",
+  "description": "TA - Lamon Babae",
+  "author": "lrnzpn",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {}
+}

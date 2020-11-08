@@ -4,17 +4,27 @@
           <div class="desktop--1 background"></div>
       </section>
       <section>
-          <div class="desktop--2 background"></div>
+          <div class="desktop--2 background center-end pb-4">
+              <!-- insert embed link here -->
+              <iframe width="275" height="170" src="https://www.youtube.com/embed/TaHmAZNUwLo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
       </section>
       <section>
-          <div class="desktop--3 background"></div>
+          <div class="desktop--3 background center-end pb-4">
+              <!-- insert embed link here -->
+              <iframe width="275" height="170" src="https://www.youtube.com/embed/TaHmAZNUwLo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
       </section>
   </div>
 </template>
 
 <script>
 export default {
-
+    data() {
+        return {
+            
+        }
+    }
 }
 </script>
 

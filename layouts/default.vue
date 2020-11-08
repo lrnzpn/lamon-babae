@@ -30,4 +30,14 @@ html {
     height: 100vh;
     width: 100vw;
 }
+
+.center-end {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.pb-4 {
+    padding-bottom: 4em;
+}
 </style>

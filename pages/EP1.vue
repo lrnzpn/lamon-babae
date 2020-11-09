@@ -1,7 +1,11 @@
 <template>
   <div class="container">
       <section>
-          <div class="desktop--1 background"></div>
+          <div class="desktop--1 background">
+              <a href="#">
+                  <img src="../assets/LB Button04 1.png" alt="back">
+              </a>
+          </div>
       </section>
       <section>
           <div class="desktop--2 background center-end pb-4">

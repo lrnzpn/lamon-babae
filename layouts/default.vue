@@ -2,7 +2,7 @@
     <nuxt />
 </template>
 
-<style>
+<style lang="scss">
 html {
   font-size: 16px;
   word-spacing: 1px;
@@ -21,8 +21,18 @@ html {
 }
 
 .container {
+    img {
+    padding: 1em;
+    width: 150px;
+    height: auto;
 
+    @media screen and (max-width: 720px) {
+            width: 120px;
+            padding: .5em;
+        }
+    }
 }
+
 
 .background {
     background-size: 100% 100%;

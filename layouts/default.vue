@@ -22,13 +22,14 @@ html {
 
 .container {
     img {
-    padding: 1em;
-    width: 150px;
+    padding: .5em;
+    width: 120px;
     height: auto;
+    display: block;
+    position: fixed;
 
-    @media screen and (max-width: 720px) {
-            width: 120px;
-            padding: .5em;
+    @media screen and (max-width: 991px) {
+            display: none;
         }
     }
 }

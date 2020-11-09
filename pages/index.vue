@@ -5,8 +5,14 @@
 
 <script>
 export default {
-  middleware: 'redirect'
-}
+  middleware: 'redirect',
+  head: {
+        title: 'Lamon Babae',
+        meta: [
+            {"http-equiv" : 'refresh', content: "0;url=http://tanghalangateneo.com/"}
+        ]
+    }
+  }
 </script>
 
 <style lang="scss">

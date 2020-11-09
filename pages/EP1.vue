@@ -2,7 +2,7 @@
   <div class="container">
       <section>
           <div class="desktop--1 background">
-              <a href="#">
+              <a href="http://tanghalangateneo.com/lamonbabae">
                   <img src="../assets/LB Button04 1.png" alt="back">
               </a>
           </div>
@@ -10,13 +10,13 @@
       <section>
           <div class="desktop--2 background center-end pb-4">
               <!-- insert embed link here -->
-              <iframe width="275" height="170" src="https://www.youtube.com/embed/5eZdlnjj88g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe src="https://www.youtube.com/embed/5YFi3Uxbf0o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
       </section>
       <section>
           <div class="desktop--3 background center-end pb-4">
               <!-- insert embed link here -->
-              <iframe width="275" height="170" src="https://www.youtube.com/embed/5eZdlnjj88g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe src="https://www.youtube.com/embed/k4WvnK-qbOw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
       </section>
   </div>
@@ -40,38 +40,60 @@ export default {
 <style lang="scss" scoped>
 .desktop {
     &--1 {
-        background-image: url('../assets/EP1/DESKTOP01.png');
+        background-image: url('../assets/EP1/HDDESKTOP01.png');
 
-        @media screen and (max-width: 991px) {
+        @media screen and (max-width: 1100px) {
+            background-image: url('../assets/EP1/DESKTOP01.png');
+        }
+
+        @media screen and (max-width: 880px) {
             background-image: url('../assets/EP1/TABLET01.png');
         }
 
-        @media screen and (max-width: 720px) {
+        @media screen and (max-width: 660px) {
             background-image: url('../assets/EP1/MOBILE01.png')
         }
     }
 
     &--2 {
-        background-image: url('../assets/EP1/DESKTOP02.png');
+        background-image: url('../assets/EP1/HDDESKTOP02.png');
 
-        @media screen and (max-width: 991px) {
+        @media screen and (max-width: 1100px) {
+            background-image: url('../assets/EP1/DESKTOP02.png');
+        }
+
+        @media screen and (max-width: 880px) {
             background-image: url('../assets/EP1/TABLET02.png');
         }
 
-        @media screen and (max-width: 720px) {
+        @media screen and (max-width: 660px) {
             background-image: url('../assets/EP1/MOBILE02.png')
         }
     }
 
     &--3 {
-        background-image: url('../assets/EP1/DESKTOP03.png');
-        @media screen and (max-width: 991px) {
+        background-image: url('../assets/EP1/HDDESKTOP03.png');
+        @media screen and (max-width: 1100px) {
+            background-image: url('../assets/EP1/DESKTOP03.png');
+        }
+
+        @media screen and (max-width: 880px) {
             background-image: url('../assets/EP1/TABLET03.png');
         }
 
-        @media screen and (max-width: 720px) {
+        @media screen and (max-width: 660px) {
             background-image: url('../assets/EP1/MOBILE03.png')
         }
     }
 }
+
+iframe {
+        width: 275px;
+        height: 170px;
+        @media screen and (max-width: 720px) {
+            height: 120px;
+            width: 180px;
+            margin-bottom: 40px;
+        }
+    }
 </style>

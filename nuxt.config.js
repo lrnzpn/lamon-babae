@@ -1,5 +1,6 @@
 
 export default {
+target: 'static', // default is 'server'
   mode: 'universal',
   /*
   ** Headers of the page
@@ -46,6 +47,7 @@ export default {
     /*
     ** You can extend webpack config here
     */
+    publicPath: '/nuxt/',
     extend (config, ctx) {
     }
   }

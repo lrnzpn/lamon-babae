@@ -42,10 +42,22 @@ html {
     width: 100vw;
 }
 
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .center-end {
     display: flex;
     justify-content: center;
     align-items: flex-end;
+}
+
+.center-start {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .pb-4 {

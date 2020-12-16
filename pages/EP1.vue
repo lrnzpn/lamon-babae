@@ -26,7 +26,7 @@
 export default {
     data() {
         return {
-         title: 'Lamon Babae'  
+         title: 'Lamon Babae | EP 1'  
         }
     },
     head() {
@@ -88,12 +88,18 @@ export default {
 }
 
 iframe {
-        width: 275px;
-        height: 170px;
+        width: 250px;
+        height: 150px;
+        margin-bottom: 2.5%;
+
+        @media screen and (max-width: 1100px) {
+            margin-bottom: 5%;
+        }
+
         @media screen and (max-width: 720px) {
             height: 120px;
             width: 180px;
-            margin-bottom: 40px;
+            margin-bottom: 7.5%;
         }
     }
 </style>
